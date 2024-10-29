@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruises - Triple Plan</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <button class="menu-toggle">Menu</button>
+        <nav class="top-menu">
+            <button><a href="index.html">Home</a></button>
+            <button><a href="destinations.html">Destinations</a></button>
+            <button><a href="cruises.html">Cruises</a></button>
+            <button><a href="events.html">Events</a></button>
+            <button><a href="cart.html">Cart</a></button>
+        </nav>
+    </header>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <h2>Find Your Perfect Cruise</h2>
+        <form id="filter-form">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            
+            <label for="price">Max Price:</label>
+            <input type="number" id="price" name="price" placeholder="Enter max price">
+            
+            <button type="button" onclick="applyFilter()">Search</button>
+        </form>
+    </section>
+
+    <!-- Cruises List Section -->
+    <section class="cruise-list">
+        <!-- Caribbean Cruise -->
+        <div class="cruise" data-price="1500" data-date="2024-06-01">
+            <img src="C:\Users\basko\OneDrive\Desktop\Project\images\Carribean cruise.jpg" alt="Caribbean Cruise">
+            <h3>Caribbean Getaway</h3>
+            <p><strong>Departure:</strong> June 1, 2024 from Miami, FL</p>
+            <p><strong>Duration:</strong> 7 days</p>
+            <p><strong>Amenities:</strong> All-inclusive dining, snorkeling excursions, onboard entertainment, spa access</p>
+            <p><strong>Price:</strong> $1500</p>
+        </div>
+        
+        <!-- Mediterranean Cruise -->
+        <div class="cruise" data-price="2500" data-date="2024-07-15">
+            <img src="C:\Users\basko\OneDrive\Desktop\Project\images\mediterranean cruise.jpg" alt="Mediterranean Cruise">
+            <h3>Mediterranean Adventure</h3>
+            <p><strong>Departure:</strong> July 15, 2024 from Barcelona, Spain</p>
+            <p><strong>Duration:</strong> 10 days</p>
+            <p><strong>Amenities:</strong> Guided city tours, gourmet dining, wine tastings, onboard swimming pools, fitness classes</p>
+            <p><strong>Price:</strong> $2500</p>
+        </div>
+        
+        <!-- Alaskan Cruise -->
+        <div class="cruise" data-price="1800" data-date="2024-05-20">
+            <img src="C:\Users\basko\OneDrive\Desktop\Project\images\alaskan cruise.jpg" alt="Alaskan Cruise">
+            <h3>Alaskan Expedition</h3>
+            <p><strong>Departure:</strong> May 20, 2024 from Seattle, WA</p>
+            <p><strong>Duration:</strong> 10 days</p>
+            <p><strong>Amenities:</strong> Glacier excursions, wildlife tours, exclusive onboard lectures, northern lights viewing</p>
+            <p><strong>Price:</strong> $1800</p>
+        </div>
+        
+        <!-- Bahamas Cruise -->
+        <div class="cruise" data-price="3200" data-date="2024-09-10">
+            <img src="C:\Users\basko\OneDrive\Desktop\Project\images\bahamas cruise.avif" alt="Bahamas Cruise">
+            <h3>Bahamas Paradise</h3>
+            <p><strong>Departure:</strong> September 10, 2024 from Miami, FL</p>
+            <p><strong>Duration:</strong> 8 days</p>
+            <p><strong>Amenities:</strong> Private beach access, scuba diving, exclusive beach parties, onboard fine dining</p>
+            <p><strong>Price:</strong> $3200</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Triple Plan Co</p>
+    </footer>
+
+</body>
+</html>

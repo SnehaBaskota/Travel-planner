@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Triple Plan</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <button class="menu-toggle">Menu</button>
+        <nav class="top-menu">
+            <button><a href="index.html">Home</a></button>
+            <button><a href="destinations.html">Destinations</a></button>
+            <button><a href="cruises.html">Cruises</a></button>
+            <button><a href="events.html">Events</a></button>
+            <button><a href="cart.html">Cart</a></button>
+        </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+            <!-- Items will be dynamically added here -->
+        </div>
+        <div class="cart-summary">
+            <p id="total-cost">Total: $0.00</p>
+            <button onclick="checkout()">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Triple Plan Co</p>
+    </footer>
+
+</body>
+</html>

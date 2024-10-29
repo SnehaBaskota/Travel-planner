@@ -1,0 +1,139 @@
+html{
+    background-color: #EED6D6;
+}
+header{
+    font-size: 175%;
+}
+header img{
+    float: left;
+    width: 225px;
+    height: 225px;
+    border-radius: 25px;
+}
+header h2{
+    font-style: italic;
+}
+nav{
+    background-color: #FEC159;
+    border-radius: 25px;
+}
+nav button{
+    margin: 10px;
+    background-color: #6A2262;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+section img {
+    border-radius: 25px;
+    float: 15px;
+    /*fix float*/
+    width: 500px;
+    height: 500px;
+}
+article{
+    background-color: #FFD897;
+    border-radius: 25px;
+}
+/* Cruises section styling */
+.cruise-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.cruise {
+    background-color: #FFD897;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.cruise h3 {
+    font-size: 1.5em;
+}
+.cruise p {
+    margin: 10px 0;
+}
+.cruise button {
+    background-color: #6A2262;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.cruise button:hover {
+    background-color: #8A2B7E;
+}
+/* Navigation Button */
+.menu-toggle {
+    background-color: #6A2262;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Filter Section */
+.filter-section {
+    padding: 20px;
+    background-color: #FFD897;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Cruises List */
+.cruise-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.cruise {
+    background-color: #EED6D6;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+}
+.cruise img {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+}
+
+/* Cruises section styling */
+
+/* Cart Section Styling */
+.cart-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.cart-item {
+    background-color: #EED6D6;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-summary {
+    margin-top: 20px;
+}
+/* Cart Section Styling */
+
+footer{
+    border-radius: 25px;
+    background-color: #FEC159;
+    text-align: center;
+    float: center;
+}
